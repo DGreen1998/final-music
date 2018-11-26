@@ -10,6 +10,6 @@ class Index
 
     public function hook()
     {
-    	echo exec('git pull');
+    	echo exec('whoami');
     }
 }
