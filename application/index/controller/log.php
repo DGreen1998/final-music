@@ -1,3 +1,11 @@
 <?php
+namespace app\index\controller;
+use think\Controller;
 
-var_dump($_GET);
+class Log extends Controller
+{
+	public function log()
+	{
+		var_dump(input('code'));		
+	}
+}
