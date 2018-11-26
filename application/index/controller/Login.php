@@ -6,6 +6,6 @@ class Login extends Controller
 {
 	public function login()
 	{
-		echo input('.');		
+		echo input('code');		
 	}
 }
