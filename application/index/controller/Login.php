@@ -6,7 +6,6 @@ class Login extends Controller
 {
 	public function login()
 	{
-		echo 1;
-		var_dump(input('code'));		
+		echo input('.');		
 	}
 }
